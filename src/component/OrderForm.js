@@ -1,4 +1,4 @@
-// src/components/OrderForm.js
+
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addOrder } from '../redux/actions';
@@ -8,7 +8,7 @@ const OrderForm = () => {
   const [isFormVisible, setFormVisibility] = useState(false);
 
   const [newOrder, setNewOrder] = useState({
-    id: Math.random().toString(36).substring(7), // Generate a random ID
+    id: Math.random().toString(36).substring(7), // Generating a random ID
     customer_name: '',
     customer_email: '',
     product: '',

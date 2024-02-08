@@ -1,4 +1,3 @@
-// src/redux/reducers.js
 
 const initialState = {
     orders: require('../DummyData.json'), // Assuming orders.json contains the initial orders

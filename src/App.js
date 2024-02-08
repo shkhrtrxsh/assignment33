@@ -17,9 +17,9 @@ function App() {
       gapi.load('client:auth2', start);
     }
 
-    // Call the start function to initialize gapi
+  
     
-  }, []); // Empty dependency array to run the effect only once
+  }, []); 
 
   return (
     <Router>
